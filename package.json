@@ -1,6 +1,6 @@
 {
   "name": "vue-permission-inertiajs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Package for vue to receive and check permissions",
   "main": "index.js",
   "scripts": {},
