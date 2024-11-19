@@ -1,6 +1,6 @@
 {
   "name": "vue-permission-inertia",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "A Package for vue to receive and check permissions",
   "main": "index.js",
   "scripts": {},
@@ -13,6 +13,9 @@
     "permissions",
     "permission"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "author": "oaky",
   "license": "MIT",
   "devDependencies": {
@@ -22,13 +25,14 @@
     "test": "tests"
   },
   "dependencies": {
+    "@inertiajs/vue3": "^1.2.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oakyydev/vue-permission-inertia.git"
+    "url": "git+https://github.com/marcomiddeldorff/vue-permission-inertia.git"
   },
   "bugs": {
-    "url": "https://github.com/oakyydev/vue-permission-inertia/issues"
+    "url": "https://github.com/marcomiddeldorff/vue-permission-inertia/issues"
   },
-  "homepage": "https://github.com/oakyydev/vue-permission-inertia#readme"
+  "homepage": "https://github.com/marcomiddeldorff/vue-permission-inertia#readme"
 }
