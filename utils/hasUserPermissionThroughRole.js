@@ -1,7 +1,7 @@
 import { usePage } from "@inertiajs/vue3";
 
 export default function (key) {
-    const roles = usePage().props.value.user.roles;
+    const roles = usePage().props.user.roles;
 
     for (let i = 0; i < roles.length; i++) {
         const role = roles[i];
