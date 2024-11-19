@@ -13,9 +13,6 @@
     "permissions",
     "permission"
   ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "author": "oaky",
   "license": "MIT",
   "devDependencies": {

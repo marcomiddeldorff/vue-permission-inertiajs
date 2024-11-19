@@ -1,4 +1,4 @@
-import { usePage } from "@inertiajs/inertia-vue3";
+import { usePage } from "@inertiajs/vue3";
 
 export default function (key) {
     const permissions = usePage().props.value.user.permissions;
